@@ -10,6 +10,7 @@
   font-size: 100%;
   background: transparent;
   box-sizing: border-box;
+  transition: all 0.3s;
 }
 
 html,
