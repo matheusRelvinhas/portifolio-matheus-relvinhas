@@ -18,7 +18,7 @@ const Projects: React.FC = () => {
       <span className="about-title">
         {selectedLanguage
           ? 'Developer Front-end'
-          : 'Desenvolvedor Front End'}
+          : 'Desenvolvedor Front-end'}
       </span>
       <span className="about-description">
         React.js | Next.js | TypeScript | CSS | HTML | JavaScript | Node.js |
