@@ -5,9 +5,9 @@ Link Project : https://portifolio-matheus-relvinhas.vercel.app/
   <img src="public/assets/port-readme-img.png">
 </p>
 
-Atualizei meu portifólio web, atualizei meus porjetos e certificados, agora ele está rodando em ios, android, além de funcionar em desktops, fiz testes em diversas plataformas, giz um desing novo foi muito bom para minhas habilidades de UI/UX, ultilizei uiverse, um site muito bom para css.
+Atualizei meu portifólio web, meus porjetos e certificados, agora ele está rodando em ios, android, além de funcionar em desktops, fiz testes em diversas plataformas. Desing novo foi muito bom para minhas habilidades de UI/UX e foi um desáfio implementar, ultilizei uiverse, um site muito bom para css.
 
-Técnologias:
+Tecnologias:
 -Next.js
 -Typescript
 -ContextAPI
