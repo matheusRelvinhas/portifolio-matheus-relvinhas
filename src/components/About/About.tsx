@@ -21,7 +21,7 @@ const Projects: React.FC = () => {
           : 'Desenvolvedor Front-end'}
       </span>
       <span className="about-description">
-        React.js | Next.js | TypeScript | CSS | HTML | JavaScript | Node.js |
+        React.js | Next.js | TypeScript | JavaScript | Node.js |
         Context | Firebase | MongoDB | Soft Skills | GitHub | Docker | SQL |
         mySQL | CSS | HTML
       </span>
