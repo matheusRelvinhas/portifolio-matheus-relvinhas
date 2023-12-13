@@ -31,6 +31,7 @@ const Footer: React.FC = () => {
             onChange={() => {
               setSelectedTheme(!selectedTheme);
             }}
+            key='input-r2d2'
           />
           <div className="bb8-toggle__container">
             <div className="bb8-toggle__scenery">
@@ -72,6 +73,7 @@ const Footer: React.FC = () => {
             onChange={() => {
               setSelectedLanguage(!selectedLanguage);
             }}
+            key='input-language'
           />
           <span className="slider"></span>
         </label>

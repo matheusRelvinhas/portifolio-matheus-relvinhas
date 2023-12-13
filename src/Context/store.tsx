@@ -35,9 +35,6 @@ export const GlobalContextProvider: React.FC<GlobalContextProviderProps> = ({
   children,
 }) => {
   const dataCss = {
-    name: 'Matheus Relvinhas',
-    cellPhone: '31971451910',
-    logoImage: '/img/logo.png',
     imagePort: '/img/image-about-port.png',
     colorPrimary: {light: '#ffffff', dark: '#262626',}, //header , footer
     colorSecundary: {light: '#f0f0f0', dark: '#1f1f1f',}, // main
