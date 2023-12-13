@@ -18,6 +18,22 @@
   margin-top: 1rem;
 }
 
+.about-title-dev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  margin-top: 1rem;
+}
+
+.about-title-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  margin-top: 1rem;
+}
+
 .about-description {
   display: flex;
   justify-content: center;

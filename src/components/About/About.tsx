@@ -15,10 +15,13 @@ const Projects: React.FC = () => {
           ? dataCss.texts.about.english
           : dataCss.texts.about.portuguese}
       </span>
-      <span className="about-title">
+      <span className="about-title-dev">
         {selectedLanguage
           ? 'Developer Front-end'
           : 'Desenvolvedor Front-end'}
+      </span>
+      <span className="about-title-name">
+        Matheus Carvalho Relvinhas
       </span>
       <span className="about-description">
         React.js | Next.js | TypeScript | JavaScript | Node.js |
