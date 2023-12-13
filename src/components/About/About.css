@@ -1,0 +1,33 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80vh;
+  overflow: auto;
+}
+
+.about-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  margin-top: 1rem;
+}
+
+.about-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.about-img {
+  width: 100%;
+  height: 100%;
+  max-width: 650px;
+  max-height: 488px;
+  min-width: 500px;
+  min-height: 200px;
+}

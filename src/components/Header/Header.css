@@ -26,7 +26,13 @@ nav span {
 
 nav span.selected {
   font-size: larger;
-  background: linear-gradient(to right, #faad14 1%, transparent 40%,transparent 60% , #faad14 100%);
+  background: linear-gradient(
+    to right,
+    #faad14 1%,
+    transparent 40%,
+    transparent 60%,
+    #faad14 100%
+  );
   box-shadow: inset 0 0 10px #ffc53d, 0 0 9px 3px #faad14;
 }
 
@@ -45,7 +51,7 @@ nav span.selected {
   border-radius: 7px;
   cursor: pointer;
   transition: all 0.3s;
-  margin-left:0.25rem;
+  margin-left: 0.25rem;
 }
 
 .svgContainer-linkedin {
@@ -64,7 +70,7 @@ nav span.selected {
 
 .Btn:hover .svgContainer-linkedin {
   border: 1px solid #8c8c8c;
-  background-color:  #1f8ec2;
+  background-color: #1f8ec2;
   backdrop-filter: blur(4px);
 }
 
@@ -78,13 +84,13 @@ nav span.selected {
   backdrop-filter: blur(0px);
   letter-spacing: 0.8px;
   border-radius: 10px;
-  transition: all .3s;
+  transition: all 0.3s;
   border: 1px solid #595959;
 }
 
 .Btn:hover .svgContainer-github {
   border: 1px solid #8c8c8c;
-  background-color:  #bfbfbf;
+  background-color: #bfbfbf;
   backdrop-filter: blur(4px);
 }
 
@@ -104,7 +110,7 @@ nav span.selected {
 
 .Btn:hover .svgContainer-whats {
   border: 1px solid #8c8c8c;
-  background-color:  #73d13d;
+  background-color: #73d13d;
   backdrop-filter: blur(4px);
 }
 
@@ -114,7 +120,7 @@ nav span.selected {
     margin-right: 6px;
     padding: 7.5px;
   }
-  
+
   nav span.selected {
     font-size: small;
   }
@@ -130,7 +136,7 @@ nav span.selected {
     font-size: x-small;
   }
   .Btn {
-    margin-left:0.1rem;
+    margin-left: 0.1rem;
   }
   .svgContainer-whats {
     width: 80%;
@@ -152,13 +158,26 @@ nav span.selected {
     margin-right: 15px;
     font-size: larger;
   }
-  
+
   nav span.selected {
     font-size: x-large;
   }
   .Btn {
     margin-left: 1rem;
-    width: 37.5px;
-    height: 37.5px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .svgContainer-whats {
+    width: 45px;
+    height: 45px;
+  }
+  .svgContainer-linkedin {
+    width: 45px;
+    height: 45px;
+  }
+  .svgContainer-github {
+    width: 45px;
+    height: 45px;
   }
 }

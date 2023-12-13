@@ -4,7 +4,7 @@ import { useGlobalContext } from '@/Context/store';
 import './Header.css';
 
 const Header: React.FC = () => {
-  const { dataCss, selectedItem, setSelectedItem, selectedTheme } =
+  const { dataCss, selectedItem, setSelectedItem, selectedTheme, selectedLanguage } =
     useGlobalContext();
 
   const handleItemClick = (itemName: string) => {
@@ -29,24 +29,24 @@ const Header: React.FC = () => {
             className={selectedItem === 'about' ? 'selected' : ''}
             onClick={() => handleItemClick('about')}
           >
-            About
+            {selectedLanguage ? dataCss.texts.about.english : dataCss.texts.about.portuguese}
           </span>
           <span
             className={selectedItem === 'certificates' ? 'selected' : ''}
             onClick={() => handleItemClick('certificates')}
           >
-            Certificates
+            {selectedLanguage ? dataCss.texts.certificates.english : dataCss.texts.certificates.portuguese}
           </span>
           <span
             className={selectedItem === 'projects' ? 'selected' : ''}
             onClick={() => handleItemClick('projects')}
           >
-            Projects
+            {selectedLanguage ? dataCss.texts.projects.english : dataCss.texts.projects.portuguese}
           </span>
         </nav>
       </div>
       <div className="social-media">
-        <a href="https://www.linkedin.com/in/relvinhasmatheus/">
+        <a href="https://www.linkedin.com/in/relvinhasmatheus/" target="_blank" rel="noopener noreferrer">
           <button className="Btn">
             <span className="svgContainer-linkedin">
               <svg
@@ -64,7 +64,7 @@ const Header: React.FC = () => {
             </span>
           </button>
         </a>
-        <a href="https://github.com/matheusRelvinhas">
+        <a href="https://github.com/matheusRelvinhas" target="_blank" rel="noopener noreferrer">
           <button className="Btn">
             <span className="svgContainer-github">
               <svg
@@ -81,7 +81,7 @@ const Header: React.FC = () => {
             </span>
           </button>
         </a>
-        <a>
+        <a href="https://wa.me/5531971451910" target="_blank" rel="noopener noreferrer">
           <button className="Btn">
             <span className="svgContainer-whats">
               <svg

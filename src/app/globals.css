@@ -19,3 +19,18 @@ body {
   overflow-x: hidden;
   font-family: 'Roboto';
 }
+
+/* Estilos para navegadores WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #8c8c8c; /* Cor do polegar da scrollbar */
+  border-radius: 6px; /* Borda arredondada para o polegar */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Cor de fundo da trilha da scrollbar */
+}

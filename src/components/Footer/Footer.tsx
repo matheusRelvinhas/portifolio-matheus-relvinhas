@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
             className="bb8-toggle__checkbox"
             type="checkbox"
             checked={selectedTheme}
-            onClick={() => {
+            onChange={() => {
               setSelectedTheme(!selectedTheme);
             }}
           />
@@ -69,7 +69,7 @@ const Footer: React.FC = () => {
           <input
             type="checkbox"
             checked={selectedLanguage}
-            onClick={() => {
+            onChange={() => {
               setSelectedLanguage(!selectedLanguage);
             }}
           />
