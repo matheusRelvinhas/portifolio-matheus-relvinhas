@@ -9,7 +9,7 @@
 
 .toggle-switch {
   display: flex;
-  width: 10vh;
+  height: 10vh;
   position: fixed;
   margin-left: 0.5rem;
 }
