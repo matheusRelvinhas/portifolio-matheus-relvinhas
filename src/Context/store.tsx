@@ -103,6 +103,12 @@ export const GlobalContextProvider: React.FC<GlobalContextProviderProps> = ({
         description: `Next.js | TypeScript | ContextApi | FireBase | API's | CSS | HTML`
       },
       {
+        title: '@tay_orcena',
+        image: '/img/tay-orcena.png',
+        url: 'https://tay-orcena.vercel.app/',
+        description: `Next.js | TypeScript | ContextApi | CSS | HTML`,
+      },
+      {
         title: 'Easy IA',
         image: '/img/easy-ia.png',
         url: 'https://matheusrelvinhas.github.io/easy-ia',
